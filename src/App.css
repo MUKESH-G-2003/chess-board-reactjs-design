@@ -1,0 +1,42 @@
+.App{
+  display: flex;
+  justify-content: center;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+table{
+  border: 10px solid grey;
+  border-collapse: collapse;
+}
+
+.black{
+  background-color: gray;
+  height: 30px;
+  width: 30px;
+}
+
+.white{
+  background-color:lightgrey;
+  width: 30px;
+  height: 30px;
+}
+
+td{
+  padding: 15px;
+}
+
+td i{
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.whitecoin{
+  color:rgb(255, 255, 255);
+}
